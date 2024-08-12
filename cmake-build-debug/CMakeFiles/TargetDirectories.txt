@@ -1,3 +1,8 @@
-C:/Users/lover/Desktop/EntregaParcial2/cmake-build-debug/CMakeFiles/U00-E06.dir
-C:/Users/lover/Desktop/EntregaParcial2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/lover/Desktop/EntregaParcial2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/Ej1.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/Ej2.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/Ej3.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/Ej4.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/Ej5.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/Ej6.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug/CMakeFiles/rebuild_cache.dir

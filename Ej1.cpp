@@ -1,12 +1,6 @@
 #include <iostream>
 using namespace std;
-
-// Declaración de la función que intercambia el contenido de dos vasos
-void intercambiarJugos(double &vaso1, double &vaso2) {
-    double temp = vaso1;
-    vaso1 = vaso2;
-    vaso2 = temp;
-}
+void intercambiarJugos(double &vaso1, double &vaso2);
 
 int main() {
     double jugoNaranja, jugoManzana;
@@ -26,9 +20,16 @@ int main() {
     intercambiarJugos(jugoNaranja, jugoManzana);
 
     // Mostrar las cantidades después del intercambio
-    cout << "Después del intercambio:\n";
+    cout << "Despues del intercambio:\n";
     cout << "Jugo de naranja: " << jugoNaranja << " litros\n";
     cout << "Jugo de manzana: " << jugoManzana << " litros\n";
 
     return 0;
+}
+
+// Declaración de la función que intercambia el contenido de dos vasos
+void intercambiarJugos(double &vaso1, double &vaso2) {
+    double temp = vaso1;
+    vaso1 = vaso2;
+    vaso2 = temp;
 }

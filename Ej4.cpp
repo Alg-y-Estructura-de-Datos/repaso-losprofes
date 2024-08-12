@@ -1,22 +1,11 @@
 #include <iostream>
 #include <cmath>  // Para la función pow
+
 using namespace std;
 
-// Función para sumar dos enteros
-int sumarEnteros(int a, int b) {
-    return a + b;
-}
-
-// Función para calcular el área de un círculo
-double calcularAreaCirculo(double radio) {
-    const double PI = 3.14159265358979323846;
-    return PI * radio * radio;
-}
-
-// Función para calcular la potencia de un número
-double calcularPotencia(double base, int exponente) {
-    return pow(base, exponente);
-}
+int sumarEnteros(int a, int b);
+double calcularAreaCirculo(double radio);
+double calcularPotencia(double base, int exponente);
 
 int main() {
     int opcion;
@@ -68,4 +57,21 @@ int main() {
     } while(opcion != 4);
 
     return 0;
+}
+
+
+// Función para sumar dos enteros
+int sumarEnteros(int a, int b) {
+    return a + b;
+}
+
+// Función para calcular el área de un círculo
+double calcularAreaCirculo(double radio) {
+    const double PI = 3.14159265358979323846;
+    return PI * radio * radio;
+}
+
+// Función para calcular la potencia de un número
+double calcularPotencia(double base, int exponente) {
+    return pow(base, exponente);
 }

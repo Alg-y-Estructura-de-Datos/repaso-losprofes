@@ -2,30 +2,44 @@
 using namespace std;
 
 
-unsigned long long factorial(int n) {
+unsigned long long factorialrecursivo(int n) {
     if (n == 0)
         return 1;
     else
-        return n * factorial(n - 1);
+        return n * factorialrecursivo(n - 1);
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 int main() {
     int n;
-    unsigned long long factorial = 1;
+    unsigned long long factorialIteracion = 1;
 
-    cout << "Introduce un número entero positivo: ";
+    cout << "Introduce un numero entero positivo: ";
     cin >> n;
 
     if (n < 0) {
-        cout << "El factorial no está definido para números negativos." << endl;
+        cout << "El factorialIteracion no esta definido para números negativos." << endl;
     } else {
         for (int i = 1; i <= n; ++i) {
-            factorial *= i;
+            factorialIteracion = factorialIteracion * i;
+            //factorialIteracion *= i;//simplificacion de la linea anterior
         }
 
-        cout << "El factorial de " << n << " usando iteración " << factorial << endl;
+        cout << "El factorialIteracion de " << n << " usando iteracion " << factorialIteracion << endl;
 
-cout << "El factorial de " << n << " usando recursividad " << factorial(n) << endl;
+cout << "El factorialIteracion de " << n << " usando recursividad " << factorialrecursivo(n) << endl;
     }
 
 

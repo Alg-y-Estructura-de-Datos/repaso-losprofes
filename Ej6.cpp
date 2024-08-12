@@ -13,7 +13,7 @@ void agregarContacto(vector<string> &contactos, const string &nombre, const stri
 // Función que muestra todos los contactos en la lista
 void mostrarContactos(const vector<string> &contactos) {
     cout << "Lista de Contactos:\n";
-    for (size_t i = 0; i < contactos.size(); ++i) {
+    for (int i = 0; i < contactos.size(); ++i) {
         cout << i + 1 << ". " << contactos[i] << "\n";
     }
 }

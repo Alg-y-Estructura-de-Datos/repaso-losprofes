@@ -1,10 +1,16 @@
 #include <iostream>
 using namespace std;
 
+void marcarAsiento(bool *asiento);
+
 // Declaración de la función que marca un asiento como reservado
 void marcarAsiento(bool *asiento) {
     *asiento = true;
 }
+
+//void marcarAsiento1(bool asiento[]) {
+//    asiento[i] = true;
+//}
 
 int main() {
     const int numAsientos = 10;
@@ -17,6 +23,12 @@ int main() {
     for (int i = 0; i < numAsientos; ++i) {
         cout << "Asiento " << i + 1 << ": " << (asientos[i] ? "Reservado" : "Libre") << "\n";
     }
+//    if(asientos[i] == true){
+//            cout << "Reservado" << "\n";
+//        }else{
+//            cout << "Libre"" << "\n";
+//        }
+
 
     // Solicitar al usuario que elija un asiento para reservar
     cout << "Elija un asiento para reservar (1-" << numAsientos << "): ";

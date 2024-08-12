@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\lover\Desktop\UCC\Prog 3\2024\u0-repaso-losprofes\repaso-losprofes" -B "C:\Users\lover\Desktop\UCC\Prog 3\2024\u0-repaso-losprofes\repaso-losprofes\cmake-build-debug"
+-- Configuring done (1.6s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/Users/lover/Desktop/UCC/Prog 3/2024/u0-repaso-losprofes/repaso-losprofes/cmake-build-debug
